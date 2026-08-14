@@ -170,6 +170,7 @@ if(Puntos>=150 && Nivel==6){
 
 //Probabilidades
 function generarObjeto(){
+    Sonido6.play();
     for(let i=0;i<Objetos.length;i++){
     Objetos[i].style.display="none";
     }
@@ -477,7 +478,6 @@ if(Puntos>=10){
         }
 
         generarObjeto();
-        Sonido6.play();
     }
 
 }
