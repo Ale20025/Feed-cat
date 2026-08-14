@@ -158,9 +158,12 @@ if(Puntos>=80 && Nivel==4){
 if(Puntos>=100 && Nivel==5){
     velocidadComida=16;
     velocidadObjeto=18;
-    Nivel=5;
-    console.log(velocidadComida);
-    console.log(velocidadObjeto);
+    Nivel=6;
+}
+if(Puntos>=150 && Nivel==6){
+    velocidadComida=18;
+    velocidadObjeto=23;
+    Nivel=6;
 }
 
 
