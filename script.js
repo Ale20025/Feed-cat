@@ -161,8 +161,8 @@ if(Puntos>=100 && Nivel==5){
     Nivel=6;
 }
 if(Puntos>=150 && Nivel==6){
-    velocidadComida=18;
-    velocidadObjeto=23;
+    velocidadComida=21;
+    velocidadObjeto=26;
     Nivel=6;
 }
 
