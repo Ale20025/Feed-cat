@@ -126,20 +126,20 @@ function actualizar(){
 
 
 if(Puntos>=0 && Nivel==0){
-    velocidadComida=2.7;
-    velocidadObjeto=3;
+    velocidadComida=3.2;
+    velocidadObjeto=4;
     Nivel=1;
 
 }
 if(Puntos>=20 && Nivel==1){
-    velocidadComida=3;
-    velocidadObjeto=4;
+    velocidadComida=4;
+    velocidadObjeto=5;
     Nivel=2;
 
 }
 if(Puntos>=40 && Nivel==2){
-    velocidadComida=5;
-    velocidadObjeto=6;
+    velocidadComida=5.2;
+    velocidadObjeto=5.8;
     Nivel=3;
 
 }
